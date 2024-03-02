@@ -6,4 +6,10 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x=a//10000
+    y=a//1000
+    z=a//100
+    d=a//10
+    b=a//1
+    return x<y<z<d<b
+print(main(12645)) 
